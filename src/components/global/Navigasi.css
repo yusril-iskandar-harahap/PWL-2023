@@ -1,38 +1,57 @@
-*{
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-.nav {
+/* src/App.css */
+.App {
+    text-align: center;
+  }
+  
+  .App-nav {
     background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    padding: 0 1rem;
-}
-
-.nav ul{
-    padding: 1;
-    margin: 1;
+    padding: 10px 0;
+  }
+  
+  .App-nav ul {
     list-style: none;
-    display: flex;
-    gap: 2rem;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App-nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .App-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .App-section {
+    margin: 40px 0;
+  }
+  
+  .App-section h2 {
+    color: #282c34;
+  }
+  
+  .App-section p {
+    color: #333;
+  }
 
-.nav li{
-    font-size: 28px;
-    font-family: 'sans-serif';
-}
-
-.nav li.active{
-    background-color: #555;
-}
-
-.nav li.hover{
-    background-color: #888;
+img{
+  width: 20px; /* Make sure the image takes the full width of the container */
+  height: auto; /* Maintain the image's aspect ratio */
+  /* display: block; Remove any default inline display */
 }
